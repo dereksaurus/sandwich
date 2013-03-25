@@ -1,3 +1,6 @@
+require 'highline/import'
+
+require_relative './utilities.rb'
 require_relative './inventory.rb'
 require_relative './sandwich.rb'
 require_relative './sandwich_machine.rb'
@@ -12,4 +15,4 @@ class Main
 
 end
 
-m = Main.new
+Main.new
